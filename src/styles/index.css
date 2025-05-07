@@ -59,10 +59,3 @@ body {
   background-color: var(--primary-100);
   color: var(--primary-700);
 }
-@media screen and(width >= 768px) {
-  .body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
