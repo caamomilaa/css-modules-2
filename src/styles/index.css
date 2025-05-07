@@ -1,3 +1,31 @@
+:root{
+  --title-xl: 4.5rem;
+  --title-l:2rem;
+  --title-m:1.5rem;
+  --text-bold:1.125rem;
+  --text-s:1.125rem;
+
+  --first-gradient:linear-gradient(#4D21C9, #6943FF, #2F2CE9);
+  --second-gradient:   linear-gradient(#4D21C9, #2421c900, #2421c900);
+
+  --primary-100: #ECF2FF;
+  --primary-200:#e1e2eb;
+  --primary-300:#CAC9FF;
+  --primary-500: #1125D6;
+  --primary-700: #303B59;
+  --primary-700-opacity:rgba(48, 59, 89, 0.523)9;
+
+  --first-accent-color-900: #FF5555;
+  --first-accent-color-100: #f1d7d7;
+
+  --second-acent-color-900: #FFB21E;
+  --second-accent-color-100: #fbecd1;
+
+  --third-accent-color-900:#00BB8F;
+  --third-accent-color-100:#b4e5da;
+
+  --white: #FFFFFF;
+}
 *,
 *::after,
 *::before {
@@ -26,5 +54,5 @@ nav ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
 }
