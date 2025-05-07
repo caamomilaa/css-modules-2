@@ -1,0 +1,16 @@
+.button{
+    background-color: var(--primary-700);
+    font-size: var(--text-s);
+    font-weight: var(--text-bold);
+    color: var(--white);
+    font-family: inherit;
+    border: none;
+    padding: 1.0625rem 7.5rem 1rem 7.5rem;
+    border-radius: 8rem;
+}
+@media(hover:hover){
+    .button:hover{
+        background-color: transparent;
+        background-image: var(--first-gradient);
+    }
+}

@@ -1,4 +1,7 @@
+import styles from './cardscontainer.module.css';
+
 const CardsContainer = ({ children }) => {
-  return <div>{children}</div>;
+	const cardsContainerStyles = `${styles.container}`;
+	return <div className={cardsContainerStyles}>{children}</div>;
 };
 export default CardsContainer;

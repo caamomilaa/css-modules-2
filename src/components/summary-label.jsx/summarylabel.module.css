@@ -1,0 +1,35 @@
+.label{
+  padding: 1.125rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.75rem;
+}
+.topics{
+    display: flex;
+    gap: 0.5rem;
+}
+.red{
+    color: var(--first-accent-color-900);
+    background-color:var(--first-accent-color-100);
+}
+.yellow{
+    color: var( --second-acent-color-900);
+    background-color: var(  --second-accent-color-100);
+}
+.green{
+    color: var(--third-accent-color-900);
+    background-color:var(--third-accent-color-100);
+}
+.blue{
+    color: var(--primary-500);
+    background-color: var(--primary-200);
+}
+.result{
+    color: var(--primary-700);
+    font-weight: var(--text-bold);
+}
+
+.resultof{
+    color: var(--primary-600);
+    font-weight: var(--text-bold);
+}
